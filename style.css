@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 0.8rem;
+  color: white;
+  padding: 10px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+  width: 70%;
+}
+
+button {
+  padding: 8px 12px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: #20201f;
+  color: white;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: red;
+}
+
+.wv-wrapper {
+  overflow-y: auto;
+  height: 100vh;
+  width: 100%;
+}
